@@ -1,0 +1,119 @@
+main .shimmer-country-card{
+    --shimmer-color: hsl(0, 0%, 78%);
+}
+
+main.dark .shimmer-country-card{
+    --shimmer-color: hsl(208, 21%, 34%);
+}
+
+.shimmer-country-card{
+    height: 350px;
+    background-color: var(--elements-color);
+}
+
+.shimmer-flag-container div{
+    height: 168px;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-title{
+    height: 32px;
+    background-color: var(--shimmer-color);
+    border-radius: 4px;
+}
+
+.shimmer-country-info p{
+    height: 22px;
+    border-radius: 4px;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-country-info p:last-child{
+    width: 50%;
+}
+
+/* Country Detail */
+
+main .shimmer-country-details-container {
+    --shimmer-color: hsl(0, 0%, 78%);
+}
+  
+main.dark .shimmer-country-details-container {
+    --shimmer-color: hsl(208, 21%, 34%);
+} 
+
+.shimmer-country-main{
+    padding-left: 40px;
+    background-color: var(--elements-color);
+}
+
+.shimmer-back-button{
+    height: 34px;
+    width: 150px;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-country-img{
+    height: 330px;
+    width: 100%;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-heading{
+    height: 30px;
+    width: 250px;
+    background-color: var(--shimmer-color);
+
+}
+
+.shimmer-para{
+    height: 20px;
+    width: 190px;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-border-countries b{
+    height: 15px;
+    width: 100px;
+    background-color: var(--shimmer-color);
+}
+
+.shimmer-border-countries a{
+    height: 27px;
+    width: 68px;
+    background-color: var(--shimmer-color);
+} 
+
+/* .shimmer .flag {
+    width: 40%;
+    height: 240px;
+    background-color: var(--elements-color);
+    border-radius: 4px;
+  }
+  
+  .shimmer .title {
+    height: 36px;
+    background-color: var(--elements-color);
+    border-radius: 4px;
+  }
+  
+  .country-details.shimmer p {
+    height: 22px;
+    background-color: var(--elements-color);
+    border-radius: 2px;
+  }
+  
+  .country-details.shimmer p:last-child {
+    width: 50%;
+  }
+  
+  .details-text-container {
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 940px) {
+    .shimmer .flag, .details-text-container {
+      width: 100%;
+      max-width: 400px;
+    }
+}   */
