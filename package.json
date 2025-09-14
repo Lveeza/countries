@@ -6,5 +6,25 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^6.30.1"
-  }
+  },
+  "name": "countries-in-react",
+  "description": "",
+  "version": "1.0.0",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lveeza/countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lveeza/countries/issues"
+  },
+  "homepage": "https://github.com/Lveeza/countries#readme"
 }
